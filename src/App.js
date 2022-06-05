@@ -2,6 +2,10 @@ import { Routes, Route } from 'react-router-dom';
 
 import { Layout } from './components/Layout'
 import { Homepage } from './pages/Homepage';
+import Cards from './pages/Cards';
+import Tour from './pages/Tour';
+import Tour from './pages/Other';
+import "./index.css";
 // import { About } from './pages/Aboutpage';
 // import { Blogpage } from './pages/Blogpage';
 // import { Createpost } from './pages/Createpost';
@@ -19,6 +23,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
+          <Route path="cards" element={<Cards />} />
+          <Route path="tour" element={<Tour />} />
+          <Route path="other" element={<Other />} />
           {/* <Route path="about" element={<About />}>
             <Route path="contacts" element={<p>Our contact</p>} />
             <Route path="team" element={<p>Our team</p>} />

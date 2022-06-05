@@ -69,8 +69,9 @@ const Navbar = () => {
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
         <NavLink>
           <NLink to="/">Главная</NLink>
-          <NLink to="/">Блог</NLink>
-          <NLink to="/">О нас</NLink>
+          <NLink to="/cards">Card</NLink>
+          <NLink to="/tour">Tour</NLink>
+          <NLink to="/tour">Other</NLink>
         </NavLink>
         <Search>
           <InputBase placeholder="search..." />
