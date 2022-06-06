@@ -68,10 +68,10 @@ const Navbar = () => {
         </Typography>
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
         <NavLink>
-          <NLink to="/">Главная</NLink>
+          <NLink to="/">Main</NLink>
           <NLink to="/cards">Card</NLink>
           <NLink to="/tour">Tour</NLink>
-          <NLink to="/other">Other</NLink>
+          {/* <NLink to="/other">Other</NLink> */}
         </NavLink>
         <Search>
           <InputBase placeholder="search..." />
