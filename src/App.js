@@ -4,7 +4,7 @@ import { Layout } from './components/Layout'
 import { Homepage } from './pages/Homepage';
 import Cards from './pages/Cards';
 import Tour from './pages/Tour';
-import Tour from './pages/Other';
+import Other from './pages/Other';
 import "./index.css";
 // import { About } from './pages/Aboutpage';
 // import { Blogpage } from './pages/Blogpage';

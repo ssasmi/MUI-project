@@ -71,7 +71,7 @@ const Navbar = () => {
           <NLink to="/">Главная</NLink>
           <NLink to="/cards">Card</NLink>
           <NLink to="/tour">Tour</NLink>
-          <NLink to="/tour">Other</NLink>
+          <NLink to="/other">Other</NLink>
         </NavLink>
         <Search>
           <InputBase placeholder="search..." />
